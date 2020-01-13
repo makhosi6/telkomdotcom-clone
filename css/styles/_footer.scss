@@ -1,0 +1,77 @@
+$theme: #0083c2;
+.footer {
+    max-height: max-content !important;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 0;
+    width: 100% !important;
+    padding: 50px;
+    background-color: $theme;
+    .tabs {
+        font-weight: bold !important;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        div {
+            font-size: 20px !important;
+            // &::after {
+            //     content: "+";
+            //     margin-left: auto;
+            //     margin-top: auto;
+            // }
+            span {
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            .down {
+                i {
+                    // float: right;
+                    font-weight: lighter;
+                    font-size: 20px;
+                    margin-top: 0 !important;
+                    color: #cacaca !important;
+                    margin-bottom: auto !important;
+                }
+            }
+            .span {
+                float: right;
+                font-size: 35px;
+                margin-top: 0 !important;
+                margin-bottom: auto !important;
+                margin-left: auto !important;
+                font-weight: lighter;
+                color: rgb(202, 202, 202);
+            }
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                line-height: 2;
+                font-size: 16px !important;
+                font-weight: normal !important;
+                li {
+                    text-align: left;
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                    span {
+                        padding: 0 10px 0 0;
+                    }
+                }
+            }
+        }
+    }
+    .logo2 {
+        padding: 20px;
+        width: 45%;
+        img {
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 11px;
+            text-align: left;
+        }
+    }
+}

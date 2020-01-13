@@ -1,0 +1,150 @@
+.header {
+    width: 100% !important;
+    .container-fluid {
+        padding-top: 0;
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-shrink: 1;
+        .text {
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 49%;
+            font-size: 16px;
+            .btn {
+                border: none;
+                outline: none;
+                background-color: $theme;
+                border-radius: 1px !important;
+                -webkit-border-radius: 1px !important;
+                -moz-border-radius: 1px !important;
+                -ms-border-radius: 1px !important;
+                -o-border-radius: 1px !important;
+            }
+        }
+        .illustration {
+            width: 45%;
+            overflow: hidden;
+            background-image: url(./get-help-03_picture_srcset_x400.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    .f1 {
+        visibility: hidden;
+        position: absolute;
+        padding-top: 30px !important;
+    }
+    .jumbotron {
+        color: white;
+        background-color: darken($color: $theme, $amount: 10);
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        padding-top: 0px;
+        height: 60vh;
+        p {
+            padding: 20px 0;
+        }
+        .knobs {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            div {
+                width: 45% !important;
+                // .btn2 {
+                //     background-color: #bfd730 !important;
+                // }
+                // .btn1 {
+                //     background-color: #da1b60 !important;
+                // }
+                .btn {
+                    justify-content: space-between;
+                    outline: none !important;
+                    width: 80% !important;
+                    border: none;
+                    border-radius: 4px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    -ms-border-radius: 4px;
+                    -o-border-radius: 4px;
+                }
+            }
+        }
+    }
+}
+
+#gray {
+    background-color: #fff;
+}
+
+.prom {
+    background-color: $theme !important;
+    color: white !important;
+    text-transform: capitalize;
+    .box1 {
+        h2 {
+            color: white !important;
+        }
+    }
+}
+
+.help_ {
+    background-color: #efefef!important;
+    text-transform: capitalize;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    background-color: #efefef;
+    flex-wrap: wrap;
+    // padding: 60px 0 !important;
+    .box1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 20vw;
+        h2 {
+            padding: 20px 30px !important;
+            color: $theme;
+        }
+    }
+    .box2 {
+        padding-top: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 75vw;
+        position: relative;
+        .arrow {
+            visibility: hidden;
+            width: 18px;
+            height: 18px;
+            background: #ffffff;
+            color: #ffffff;
+            left: 100px;
+            top: -8px;
+            position: absolute;
+            transform: rotate(-45deg);
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            padding: 50px 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            li {
+                display: block !important;
+                text-align: center;
+                // img,
+                // p {
+                //     text-align: center;
+                // }
+            }
+        }
+    }
+}

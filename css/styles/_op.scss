@@ -1,0 +1,27 @@
+.no_results {
+    height: 100vh;
+    visibility: hidden;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.801);
+    top: 0;
+    position: absolute;
+    display: block;
+    line-height: 3;
+    color: rgb(206, 206, 206);
+    div {
+        text-align: center;
+        padding-top: 200px;
+        justify-content: space-around;
+        i {
+            text-align: center;
+            font-size: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            font-size: 25px;
+            text-transform: uppercase;
+            margin-bottom: auto;
+        }
+    }
+}

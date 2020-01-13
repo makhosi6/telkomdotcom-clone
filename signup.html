@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./css/styles/form.css">
+
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-image: url(./img/writing.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh !important;
+        }
+        
+        h3 {
+            margin-top: 10px;
+            color: white;
+        }
+        
+        body .cont .box form .btn {
+            text-align: center;
+        }
+        
+        body .cont .box .photo img {
+            text-align: center;
+            margin-left: 45%;
+        }
+        
+        body .cont {
+            background: #0085c298;
+            height: 75%;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            top: 15%;
+            left: 25%;
+            bottom: 15%;
+        }
+        
+        body .cont .box {
+            width: 100%;
+        }
+        
+        body .cont .box .form_input {
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        body .cont .box form .form_input:focus {
+            border: 3px solid red;
+        }
+        
+        body .cont .box .form_input .strip {
+            width: 70%;
+            height: 50px;
+            border: none;
+            border-radius: 20px;
+            padding: 0 10px;
+        }
+        
+        body .cont .box .bttn {
+            height: 50px;
+            border-radius: 20px;
+            width: 100px;
+            background-color: #0072a9 !important;
+            color: white;
+            margin-left: auto;
+            border: 1px solid #fff !important;
+        }
+        /* body .cont .box .bttn:hover {
+    border: 1px solid #fff !important;
+} */
+        
+        body .cont .box .form_input[type="submit"] {
+            text-align: center;
+            border: 1px solid black;
+        }
+        
+        body .cont .box img {
+            margin-top: -140px;
+            border-radius: 50%;
+            border: 2px solid whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cont">
+        <div class="box">
+
+            <h3>Sign Up</h3>
+
+            <form>
+
+                <div class="form_input">
+                    <input class="strip" type="text" name="username" placeholder="Enter Your Username" />
+                </div>
+                <div class="form_input">
+                    <input class="strip" type="password" name="password" placeholder="Enter Your Password" />
+                </div>
+                <div class="form_input">
+                    <input class="strip" type="password" name="password" placeholder="Confirm Your Password" />
+                </div>
+                <div>
+                    <input type="submit" value="SIGN UP" class="bttn btn-login "></div>
+
+
+            </form>
+            <p style="color: white; padding-top: 20px;" class="lead">
+                Already a user? <a style="color: white; text-decoration: underline;" href="./login.html">Log In</a> </p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

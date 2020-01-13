@@ -1,0 +1,75 @@
+$theme: #0083c2;
+.nav {
+    background-color: $theme;
+    justify-content: space-between;
+    width: 100% !important;
+    z-index: 100 !important;
+    overflow: hidden;
+    border-bottom: 1px solid darken($color: $theme, $amount: 3);
+    .logo {
+        padding: 10px 0 0 10px;
+    }
+    ul {
+        margin-bottom: auto;
+        margin-top: auto;
+        display: flex;
+        flex-direction: row;
+        &:nth-last-child() {
+            color: white;
+        }
+        .search {
+            visibility: hidden;
+            position: absolute;
+            display: flex;
+            text-align: right;
+            flex-direction: row;
+            color: white;
+            margin: 0;
+            z-index: 100 !important;
+            padding: 0 30px 0 40px;
+            background-color: $theme;
+            padding-top: 10px;
+            .search-box {
+                input {
+                    color: white;
+                    padding: 5px;
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px solid white;
+                    background-color: $theme;
+                    &::placeholder {
+                        color: white;
+                    }
+                }
+            }
+            i {
+                padding: 10px;
+            }
+        }
+        .burger {
+            background-color: darken($color: $theme, $amount: 5) !important;
+            overflow: hidden;
+            justify-content: space-around;
+            padding: 20px !important;
+            // .space {
+            //     padding: 5px;
+            // }
+            .af {
+                font-size: 20px;
+            }
+            .icon-close {
+                visibility: hidden;
+                position: absolute;
+            }
+        }
+        li {
+            padding: 20px;
+            font-weight: bold;
+            color: white;
+            list-style: none;
+            &:hover {
+                color: rgb(241, 241, 241);
+            }
+        }
+    }
+}

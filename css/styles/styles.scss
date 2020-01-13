@@ -1,0 +1,25 @@
+@import "./nav";
+@import "./footer";
+@import "./mediaQueries";
+@import "./feedback";
+@import "./op";
+@import "./cookies";
+@import "./popUp";
+@import "./header";
+@import "./404";
+$theme: #0083c2;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100% !important;
+}
+
+i,
+a {
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none !important;
+}

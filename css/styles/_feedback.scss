@@ -1,0 +1,29 @@
+$theme: #0083c2;
+.feedback {
+    z-index: 1000;
+    background-color: $theme;
+    transform: rotate(270deg);
+    float: left !important;
+    right: 17px !important;
+    top: 50%;
+    position: fixed;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid darken($color: $theme, $amount: 5);
+    color: white;
+    font-weight: bold;
+    transition: ease-out;
+    transform-origin: right;
+    transition-duration: .2s;
+    &:hover {
+        padding-top: 7px;
+    }
+    span {
+        &::before {
+            content: ' ';
+        }
+    }
+}
